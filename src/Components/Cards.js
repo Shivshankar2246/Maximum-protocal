@@ -4,7 +4,7 @@ const Card = ({ imageSrc, name1, name2, dollar, percentage, isPositive }) => {
   const color = isPositive ? "text-blue-500" : "text-red-500";
 
   return (
-    <div className="w-full md:w-1/2 lg:w-1/4 p-4">
+    <div className="w-full md:w-1/2 lg:w-1/4 p-4 mt-4">
       <div className="flex items-center bg-gradient-to-r from-fuchsia-800 to-purple-700 rounded-full pr-2">
         <div className="w-16 h-16 mr-4 pt-4 pl-5">
           <Image src={imageSrc} alt="" width={20} height={25} />

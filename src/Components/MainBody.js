@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Cards from "./Cards";
+import Graph from "./Graph";
 
 const MainBody = () => {
   return (
@@ -31,6 +32,89 @@ const MainBody = () => {
           <h1 className="text-gray-300 text-xl">View all</h1>
         </div>
         <Cards className="grid grid-cols-4" />
+      </div>
+      <div className="m-10">
+        <div className="flex justify-between">
+          <h1 className="text-white text-xl">Max Indexes</h1>
+          <h1 className="text-gray-300 text-xl">View all</h1>
+        </div>
+        <div className=" flex  pt-5">
+          <div className="bg-gradient-to-tr from-purple-800 via-purple-900 to-indigo-800 p-5">
+            <div>
+              {" "}
+              <Graph />
+            </div>
+            <div className="flex pt-2 ">
+              {" "}
+              <Image src="/assets/SOL.png" width={15} height={12} />
+              <Image src="/assets/USDT.png" width={15} height={12} />
+              <Image src="/assets/XRP.png" width={15} height={12} />
+              <Image src="/assets/LTC.png" width={15} height={12} />
+              <div className="ml-auto">
+                <p className="text-white  bg-gradient-to-tr from-purple-700 via-purple-800 to-indigo-800 rounded-xl px-5 ">
+                  View
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-gradient-to-tr from-purple-800 via-purple-900 to-indigo-800 p-5">
+            {" "}
+            <div>
+              {" "}
+              <Graph />
+            </div>
+            <div className="flex pt-2 ">
+              {" "}
+              <Image src="/assets/SOL.png" width={15} height={12} />
+              <Image src="/assets/USDT.png" width={15} height={12} />
+              <Image src="/assets/XRP.png" width={15} height={12} />
+              <Image src="/assets/LTC.png" width={15} height={12} />
+              <div className="ml-auto">
+                <p className="text-white  bg-gradient-to-tr from-purple-700 via-purple-800 to-indigo-800 rounded-xl px-5 ">
+                  View
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-gradient-to-tr from-purple-800 via-purple-900 to-indigo-800 p-5">
+            {" "}
+            <div>
+              {" "}
+              <Graph />
+            </div>
+            <div className="flex pt-2 ">
+              {" "}
+              <Image src="/assets/SOL.png" width={15} height={12} />
+              <Image src="/assets/USDT.png" width={15} height={12} />
+              <Image src="/assets/XRP.png" width={15} height={12} />
+              <Image src="/assets/LTC.png" width={15} height={12} />
+              <div className="ml-auto">
+                <p className="text-white  bg-gradient-to-tr from-purple-700 via-purple-800 to-indigo-800 rounded-xl px-5 ">
+                  View
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-gradient-to-tr from-purple-800 via-purple-900 to-indigo-800 p-5">
+            {" "}
+            <div>
+              {" "}
+              <Graph />
+            </div>
+            <div className="flex pt-2 ">
+              {" "}
+              <Image src="/assets/SOL.png" width={15} height={12} />
+              <Image src="/assets/USDT.png" width={15} height={12} />
+              <Image src="/assets/XRP.png" width={15} height={12} />
+              <Image src="/assets/LTC.png" width={15} height={12} />
+              <div className="ml-auto">
+                <p className="text-white  bg-gradient-to-tr from-purple-700 via-purple-800 to-indigo-800 rounded-xl px-5 ">
+                  View
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
