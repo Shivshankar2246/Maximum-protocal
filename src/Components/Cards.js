@@ -89,10 +89,11 @@ const Cards = () => {
       isPositive: false,
     },
   ];
+  const limitedData = data.slice(0, 8);
 
   return (
     <div className="flex flex-wrap">
-      {data.map((item) => (
+      {limitedData.map((item) => (
         <Card key={item.name1} {...item} />
       ))}
     </div>
